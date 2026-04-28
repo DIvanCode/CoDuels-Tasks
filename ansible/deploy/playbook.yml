@@ -1,0 +1,19 @@
+- name: Deploy tasks to filestorage
+  hosts: Production
+  remote_user: root
+  vars:
+    tasks_source_dir: "{{ playbook_dir }}/../../storage"
+    tasks_storage_dir: "{{ ansible_env.HOME }}/tasks/storage"
+  tasks:
+    - name: Ensure task storage root exists
+      file:
+        path: "{{ tasks_storage_dir }}"
+        state: directory
+        mode: "0755"
+
+    - name: Upload task storage
+      copy:
+        src: "{{ tasks_source_dir }}/"
+        dest: "{{ tasks_storage_dir }}/"
+        mode: preserve
+        directory_mode: "0755"
