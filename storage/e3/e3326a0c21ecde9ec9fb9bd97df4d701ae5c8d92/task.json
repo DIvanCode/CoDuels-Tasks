@@ -1,0 +1,92 @@
+{
+    "id": "e3326a0c21ecde9ec9fb9bd97df4d701ae5c8d92",
+    "title": "Шестеренки",
+    "type": "write_code",
+    "level": 5,
+    "topics": [],
+    "statement": "statement.md",
+    "tl": 1000,
+    "ml": 256,
+    "checker": {
+        "path": "checker.cpp",
+        "lang": "Cpp"
+    },
+    "solution": {
+        "path": "solution.cpp",
+        "lang": "Cpp"
+    },
+    "tests": [
+        {
+            "id": 1,
+            "input": "tests/01.in",
+            "output": "tests/01.out",
+            "visible": true
+        },
+        {
+            "id": 2,
+            "input": "tests/02.in",
+            "output": "tests/02.out",
+            "visible": true
+        },
+        {
+            "id": 3,
+            "input": "tests/03.in",
+            "output": "tests/03.out",
+            "visible": false
+        },
+        {
+            "id": 4,
+            "input": "tests/04.in",
+            "output": "tests/04.out",
+            "visible": false
+        },
+        {
+            "id": 5,
+            "input": "tests/05.in",
+            "output": "tests/05.out",
+            "visible": false
+        },
+        {
+            "id": 6,
+            "input": "tests/06.in",
+            "output": "tests/06.out",
+            "visible": false
+        },
+        {
+            "id": 7,
+            "input": "tests/07.in",
+            "output": "tests/07.out",
+            "visible": false
+        },
+        {
+            "id": 8,
+            "input": "tests/08.in",
+            "output": "tests/08.out",
+            "visible": false
+        },
+        {
+            "id": 9,
+            "input": "tests/09.in",
+            "output": "tests/09.out",
+            "visible": false
+        },
+        {
+            "id": 10,
+            "input": "tests/10.in",
+            "output": "tests/10.out",
+            "visible": false
+        },
+        {
+            "id": 11,
+            "input": "tests/11.in",
+            "output": "tests/11.out",
+            "visible": false
+        },
+        {
+            "id": 12,
+            "input": "tests/12.in",
+            "output": "tests/12.out",
+            "visible": false
+        }
+    ]
+}
