@@ -4,7 +4,7 @@
     "type": "write_code",
     "level": 3,
     "topics": [],
-    "statement": "statement.md",
+    "statement": "statement.html",
     "tl": 500,
     "ml": 256,
     "checker": {
